@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+* {
+  box-sizing: border-box;}
+
+/* Light mode defaults */
+.app {
+  background-color: #f5f5f5;
+  min-height: 100vh;
+  color: #000;
+}
+
+/* Dark mode full theme */
+.app.dark {
+  background-color: #000;
+  min-height: 100vh;
+  color: #fff;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #222;
+  color: white;
+}
+
+/* Cards */
+.card {
+  background-color: #fff;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.app.dark .card {
+  background-color: #111;
+  border: 1px solid #ccc; /* light border */
+  color: #fff;
+}
+
+/* Progress bar */
+.progress-bar {
+  background: #444;
+  height: 8px;
+  border-radius: 4px;
+}
+
+.progress {
+  height: 8px;
+  background: limegreen;
+  border-radius: 4px;
+}
+
+/* Inputs */
+input {
+  padding: 10px;
+  margin: 10px 10px;
+  width: 80%;
+}
