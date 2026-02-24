@@ -1,16 +1,71 @@
-# React + Vite
+# AI Learning Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A mini AI Learning Dashboard built using React and simple CSS.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+Deployment Link: https://your-vercel-link.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📂 GitHub Repository
+Repo Link: https://github.com/your-username/ai-learning-dashboard
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📌 Features
 
-## Expanding the ESLint configuration
+- Login Page (No authentication)
+- Dashboard with:
+  - Course cards
+  - Search functionality
+  - Progress tracking
+- Course Detail Page
+  - Lesson completion toggle
+  - Dynamic progress calculation
+  - Persistent state using localStorage
+- Dark Mode Toggle (Persistent)
+- Loading Skeleton UI
+- React Native Dashboard mock screen
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+- React (Vite)
+- React Router DOM
+- React Hooks (useState, useEffect)
+- LocalStorage
+- Simple CSS
+- Deployed on Vercel
+
+---
+
+## 🤖 How AI Tools Were Used
+
+AI tools were used for:
+
+- Understanding React routing patterns
+- Improving dark mode implementation
+- Enhancing state management logic
+- Structuring clean component architecture
+- Debugging navigation and persistence issues
+
+The core logic, integration, debugging, and UI decisions were implemented manually and tested thoroughly.
+
+---
+
+## ⚠️ Challenges Faced
+
+1. React Router navigation issues
+2. Handling dynamic routes properly in Vercel deployment
+3. Persisting lesson progress using localStorage
+4. Structuring dark mode without breaking base styles
+5. Syncing dashboard progress with course lesson completion
+
+Each issue was resolved by debugging component structure and improving state ownership patterns.
+
+---
+
+## 📦 Installation
+
+```bash
+npm install
+npm run dev
