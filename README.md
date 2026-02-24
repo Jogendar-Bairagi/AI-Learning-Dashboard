@@ -3,10 +3,10 @@
 A mini AI Learning Dashboard built using React and simple CSS.
 
 ## 🚀 Live Demo
-Deployment Link: https://your-vercel-link.vercel.app
+Deployment Link: https://ai-learning-dashboard-flame.vercel.app/
 
 ## 📂 GitHub Repository
-Repo Link: https://github.com/your-username/ai-learning-dashboard
+Repo Link: https://github.com/Jogendar-Bairagi/AI-Learning-Dashboard
 
 ---
 
